@@ -1,6 +1,6 @@
 README.md
 
-```markdown
+```markdown 
 # DharmaAI - AI-First Business Solutions Website
 
 ## Project Overview
@@ -15,6 +15,7 @@ DharmaAI is a modern, responsive website for an AI consulting company that helps
 
 ```
 
+```
 dharmaai-website/
 │
 ├── index.html
