@@ -9,7 +9,7 @@ DharmaAI is a modern, responsive website for an AI consulting company that helps
 
 ## Live Demo
 
-[View Live Website](#) (Add your deployed URL here)
+View Live Website: https://dharma-ai.netlify.app/
 
 ## Folder Structure
 
