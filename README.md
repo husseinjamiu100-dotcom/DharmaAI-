@@ -11,11 +11,12 @@ DharmaAI is a modern, responsive website for an AI consulting company that helps
 
 View Live Website: https://dharma-ai.netlify.app/
 
+
+
+```
+
+```
 ## Folder Structure
-
-```
-
-```
 dharmaai-website/
 │
 ├── index.html
