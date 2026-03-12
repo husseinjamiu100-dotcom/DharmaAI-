@@ -31,13 +31,12 @@ dharmaai-website/
 │   └── script.js
 │
 ├── assets/
-│   ├── images/
-│   │   ├── mascot.png
-│   │   ├── avatar-placeholder.png
-│   │   └── hero-ai.jpg
-│   │
-│   └── icons/
-│       └── whatsapp.svg
+│   ├──
+│       ├── mascot.png
+│       ├── avatar-placeholder.png
+│       └── hero-ai.jpg
+│   
+│   
 │
 └── README.md
 
