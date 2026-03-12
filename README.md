@@ -1,7 +1,6 @@
-README.md
-
+## DharmaAI - AI-First Business Solutions Website
 ```markdown 
-# DharmaAI - AI-First Business Solutions Website
+
 
 ## Project Overview
 
