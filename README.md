@@ -14,9 +14,9 @@ View Live Website: https://dharma-ai.netlify.app/
 
 
 ```
+## Folder Structure
 
 ```
-## Folder Structure
 dharmaai-website/
 │
 ├── index.html
