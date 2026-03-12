@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DharmaAI - AI-First Business Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">DharmaAI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+                <li><a href="resource-hub.html" class="nav-link">Resource Hub</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Helping Businesses Thrive in an <span class="gradient-text">AI-First World</span></h1>
+                <p class="hero-subtitle">DharmaAI empowers businesses with cutting-edge artificial intelligence solutions that drive growth, efficiency, and innovation. Transform your operations with our expert AI consulting and implementation services.</p>
+                <a href="contact.html" class="cta-button">Get AI Consultation</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero-ai.jpg" alt="AI Technology">
+            </div>
+        </div>
+    </section>
+
+    <section class="core-services">
+        <div class="container">
+            <h2 class="section-title">Our <span class="gradient-text">Core Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-clipboard-check service-icon"></i>
+                    <h3>AI Readiness Audit</h3>
+                    <p>Comprehensive assessment of your business processes and AI readiness score with actionable recommendations.</p>
+                    <a href="services.html" class="card-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line service-icon"></i>
+                    <h3>Lead Generation Automation</h3>
+                    <p>AI-powered lead capture, qualification, and nurturing systems that multiply your conversion rates.</p>
+                    <a href="services.html" class="card-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-robot service-icon"></i>
+                    <h3>AI Chatbots for Business</h3>
+                    <p>Intelligent conversational agents that handle customer queries 24/7 with human-like understanding.</p>
+                    <a href="services.html" class="card-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-circle service-icon"></i>
+                    <h3>Digital AI Avatars</h3>
+                    <p>Custom AI avatars for brand representation, training, and customer engagement.</p>
+                    <a href="services.html" class="card-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cogs service-icon"></i>
+                    <h3>Workflow Automation</h3>
+                    <p>End-to-end automation of repetitive tasks using cutting-edge AI technology.</p>
+                    <a href="services.html" class="card-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="avatar-section">
+        <div class="container">
+            <div class="avatar-content">
+                <h2>Meet <span class="gradient-text">DharmaAI Assistant</span></h2>
+                <p class="avatar-description">Your AI guide to smarter business decisions. Our digital avatar combines advanced language models with personalized business intelligence to provide 24/7 support and insights.</p>
+                <div class="avatar-placeholder">
+                    <img src="assets/avatar-placeholder.png" alt="DharmaAI Assistant">
+                    <div class="avatar-status">
+                        <span class="status-dot"></span>
+                        <span>Ready to assist you</span>
+                    </div>
+                </div>
+                <button onclick="openChatbot()" class="chat-button"><i class="fas fa-comment-dots"></i> Chat with AI Assistant</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="ai-score-section">
+        <div class="container">
+            <h2 class="section-title">Check Your <span class="gradient-text">AI Business Score</span></h2>
+            <p class="score-description">Answer 3 quick questions to see how ready your business is for AI transformation</p>
+            
+            <div class="score-card">
+                <div class="question-container" id="question1">
+                    <h3><i class="fas fa-question-circle"></i> How automated is your business?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q1" value="25"> Minimal automation
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="50"> Partially automated
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="75"> Mostly automated
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q1" value="100"> Fully automated
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question-container" id="question2">
+                    <h3><i class="fas fa-database"></i> Do you collect and analyze customer data?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q2" value="25"> Never
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="50"> Sometimes
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="75"> Regularly
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q2" value="100"> Extensively
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question-container" id="question3">
+                    <h3><i class="fas fa-microchip"></i> Do you currently use AI tools?</h3>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="q3" value="0"> None
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="33"> 1-2 tools
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="66"> 3-5 tools
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="q3" value="100"> 5+ tools
+                        </label>
+                    </div>
+                </div>
+
+                <button onclick="calculateAIScore()" class="calculate-button"><i class="fas fa-calculator"></i> Calculate My AI Score</button>
+                
+                <div id="scoreResult" class="score-result" style="display: none;">
+                    <h3>Your AI Readiness Score: <span id="scoreValue">0</span></h3>
+                    <div class="score-bar">
+                        <div id="scoreBarFill" class="score-bar-fill" style="width: 0%"></div>
+                    </div>
+                    <p id="scoreMessage"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose <span class="gradient-text">DharmaAI</span></h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-rocket feature-icon"></i>
+                    <h3>Rapid Implementation</h3>
+                    <p>Deploy AI solutions in weeks, not months with our proven methodology.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-bar feature-icon"></i>
+                    <h3>Data-Driven Approach</h3>
+                    <p>Every solution is backed by real data and measurable business outcomes.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h3>Enterprise Security</h3>
+                    <p>Bank-level security and compliance with industry regulations.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-lightbulb feature-icon"></i>
+                    <h3>Continuous Innovation</h3>
+                    <p>Stay ahead with regular updates and cutting-edge AI capabilities.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-handshake feature-icon"></i>
+                    <h3>Dedicated Support</h3>
+                    <p>24/7 access to AI experts and technical support team.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>ROI Guarantee</h3>
+                    <p>Proven track record of delivering measurable business results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mascot-section">
+        <div class="container">
+            <div class="mascot-content">
+                <div class="mascot-image">
+                    <img src="assets/mascot.png" alt="DharmaAI Mascot">
+                </div>
+                <div class="mascot-text">
+                    <h2>Meet Our <span class="gradient-text">Growth Guardian</span></h2>
+                    <p>Our mascot represents the perfect fusion of artificial intelligence and natural growth. Like a plant reaching toward the sun, your business will flourish with DharmaAI's intelligent solutions.</p>
+                    <ul class="mascot-features">
+                        <li><i class="fas fa-seedling"></i> Symbolizes continuous growth</li>
+                        <li><i class="fas fa-bolt"></i> Represents intelligent adaptation</li>
+                        <li><i class="fas fa-shield-heart"></i> Embodies protective guidance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DharmaAI</h3>
+                    <p>Empowering businesses with intelligent AI solutions for a smarter future.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="resource-hub.html">Resource Hub</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">AI Readiness Audit</a></li>
+                        <li><a href="services.html">Lead Generation</a></li>
+                        <li><a href="services.html">AI Chatbots</a></li>
+                        <li><a href="services.html">Digital Avatars</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@dharmaai.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> San Francisco, CA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DharmaAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/2340000000000" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span>Chat on WhatsApp</span>
+</a>
+
+    <div id="chatbotPopup" class="chatbot-popup">
+        <div class="chatbot-header">
+            <h4><i class="fas fa-robot"></i> DharmaAI Assistant</h4>
+            <button onclick="closeChatbot()"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-body">
+            <p>Hello! I'm DharmaAI Assistant. How can I help you adopt AI today?</p>
+            <div class="chat-options">
+                <button onclick="chatbotResponse('services')"><i class="fas fa-cogs"></i> Services</button>
+                <button onclick="chatbotResponse('pricing')"><i class="fas fa-tag"></i> Pricing</button>
+                <button onclick="chatbotResponse('consultation')"><i class="fas fa-calendar-check"></i> Book</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

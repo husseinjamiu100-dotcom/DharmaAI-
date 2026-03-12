@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resource Hub - DharmaAI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">DharmaAI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+                <li><a href="resource-hub.html" class="nav-link active">Resource Hub</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>AI <span class="gradient-text">Resource Hub</span></h1>
+            <p>Free guides, tools, and insights to accelerate your AI journey</p>
+        </div>
+    </section>
+
+    <section class="resource-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" onclick="filterResources('all')">All Resources</button>
+                <button class="filter-btn" onclick="filterResources('ai-tools')">AI Tools</button>
+                <button class="filter-btn" onclick="filterResources('guides')">Guides</button>
+                <button class="filter-btn" onclick="filterResources('case-studies')">Case Studies</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="resources-grid">
+        <div class="container">
+            <div class="services-grid">
+                <div class="resource-card" data-category="ai-tools">
+                    <div class="resource-image">
+                        <img src="assets/images/resource1.jpg" alt="Top AI Tools" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=AI+Tools'">
+                        <span class="resource-category">AI Tools</span>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span><i class="far fa-calendar"></i> March 2026</span>
+                            <span><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                        <h3>Top 20 AI Tools for Small Businesses in 2026</h3>
+                        <p>Discover the most effective AI tools that are transforming small businesses. From automation to analytics, find the perfect tools for your needs.</p>
+                        <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="guides">
+                    <div class="resource-image">
+                        <img src="assets/images/resource2.jpg" alt="AI Chatbots Guide" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=Chatbot+Guide'">
+                        <span class="resource-category">Guides</span>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span><i class="far fa-calendar"></i> February 2026</span>
+                            <span><i class="far fa-clock"></i> 12 min read</span>
+                        </div>
+                        <h3>How AI Chatbots Increase Sales by 300%</h3>
+                        <p>Learn how businesses are using AI chatbots to boost sales, improve customer service, and generate leads 24/7. Real examples and strategies included.</p>
+                        <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="guides">
+                    <div class="resource-image">
+                        <img src="assets/images/resource3.jpg" alt="Beginner Guide" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=Beginner+Guide'">
+                        <span class="resource-category">Guides</span>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span><i class="far fa-calendar"></i> January 2026</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                        <h3>Beginner's Guide to Business Automation</h3>
+                        <p>Start your automation journey with this comprehensive guide. Learn the basics, identify opportunities, and implement your first automation project.</p>
+                        <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="ai-tools">
+                    <div class="resource-image">
+                        <img src="assets/images/resource4.jpg" alt="AI Analytics" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=AI+Analytics'">
+                        <span class="resource-category">AI Tools</span>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span><i class="far fa-calendar"></i> March 2026</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3>Best AI Analytics Platforms Compared</h3>
+                        <p>We compare the top AI analytics platforms to help you choose the right one for your business. Features, pricing, and use cases included.</p>
+                        <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="case-studies">
+                    <div class="resource-image">
+                        <img src="assets/images/resource5.jpg" alt="E-commerce Success" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=E-commerce+Case+Study'">
+                        <span class="resource-category">Case Studies</span>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span><i class="far fa-calendar"></i> February 2026</span>
+                            <span><i class="far fa-clock"></i> 15 min read</span>
+                        </div>
+                        <h3>How an E-commerce Store Scaled 10x with AI</h3>
+                        <p>Read how a small e-commerce store used AI automation to scale from $100K to $1M in annual revenue. Detailed strategies and results.</p>
+                        <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="resource-card" data-category="guides">
+                    <div class="resource-image">
+                        <img src="assets/images/resource6.jpg" alt="AI Strategy" onerror="this.src='https://via.placeholder.com/400x250/6366f1/ffffff?text=AI+Strategy'">
+                        <span class="resource-category">Guides</span>
+                    </div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span><i class="far fa-calendar"></i> January 2026</span>
+                            <span><i class="far fa-clock"></i> 20 min read</span>
+                        </div>
+                        <h3>Developing Your AI Strategy: A Step-by-Step Guide</h3>
+                        <p>A comprehensive framework for developing and implementing an AI strategy that aligns with your business goals.</p>
+                        <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay <span class="gradient-text">Updated</span></h2>
+            <p>Get the latest AI resources and insights delivered to your inbox</p>
+            <form class="newsletter-form" onsubmit="submitNewsletter(event)">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DharmaAI</h3>
+                    <p>Empowering businesses with intelligent AI solutions for a smarter future.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="resource-hub.html">Resource Hub</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">AI Readiness Audit</a></li>
+                        <li><a href="services.html">Lead Generation</a></li>
+                        <li><a href="services.html">AI Chatbots</a></li>
+                        <li><a href="services.html">Digital Avatars</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@dharmaai.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> San Francisco, CA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DharmaAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/2340000000000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+    </a>
+
+    <div id="chatbotPopup" class="chatbot-popup">
+        <div class="chatbot-header">
+            <h4><i class="fas fa-robot"></i> DharmaAI Assistant</h4>
+            <button onclick="closeChatbot()"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-body">
+            <p>Hello! I'm DharmaAI Assistant. How can I help you adopt AI today?</p>
+            <div class="chat-options">
+                <button onclick="chatbotResponse('services')"><i class="fas fa-cogs"></i> Services</button>
+                <button onclick="chatbotResponse('pricing')"><i class="fas fa-tag"></i> Pricing</button>
+                <button onclick="chatbotResponse('consultation')"><i class="fas fa-calendar-check"></i> Book</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
